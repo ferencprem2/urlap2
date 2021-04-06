@@ -1,3 +1,9 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+fieldset{
+    border:none;
+} 
 form{
     height: 200px;
     width: 550px;
@@ -6,4 +12,49 @@ form{
 }
 sup{
     color: red;
+}
+hr{
+    border-top: 1px dotted black;
+}
+#sav{
+width: 250px;
+height: 25px;
+margin: 5px 10px 10px 0;
+border: 1px solid darkred;
+}
+#tel{
+    height: 30px;
+    width: 60px;
+}
+.varos{
+    height: 30px;
+    width: 323px;
+}
+#orszag{
+    height: 30px;
+    width: 188px;
+    margin: 5px 10px 10px 0;
+}
+#ir{
+    height: 24px;
+    width: 180px;
+    margin: 5px 10px 10px 0;
+}
+#telsav{
+    height: 24px;
+    width: 177px;
+    margin: 5px 10px 10px 5px;
+    border: 1px solid darkred;
+}
+#save{
+    height: 30px;
+    width: 523px;
+    background-color: rgb(96, 196, 14);
+    border: none;
+    color: white;
+}
+#cim{
+width: 314px;
+height: 25px;
+margin: 5px 10px 10px 0;
 }
