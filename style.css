@@ -1,60 +1,72 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-fieldset{
-    border:none;
-} 
-form{
-    height: 200px;
-    width: 550px;
-    float: left;
-    padding: 10px;
-}
-sup{
-    color: red;
-}
-hr{
-    border-top: 1px dotted black;
-}
-#sav{
-width: 250px;
-height: 25px;
-margin: 5px 10px 10px 0;
-border: 1px solid darkred;
-}
-#tel{
-    height: 30px;
-    width: 60px;
-}
-.varos{
-    height: 30px;
-    width: 323px;
-}
-#orszag{
-    height: 30px;
-    width: 188px;
-    margin: 5px 10px 10px 0;
-}
-#ir{
-    height: 24px;
-    width: 180px;
-    margin: 5px 10px 10px 0;
-}
-#telsav{
-    height: 24px;
-    width: 177px;
-    margin: 5px 10px 10px 5px;
-    border: 1px solid darkred;
-}
-#save{
-    height: 30px;
-    width: 523px;
-    background-color: rgb(96, 196, 14);
-    border: none;
-    color: white;
-}
-#cim{
-width: 314px;
-height: 25px;
-margin: 5px 10px 10px 0;
-}
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 25px;
+ }
+ 
+ fieldset {
+     border: none;
+ }
+ 
+ sup {
+     color: red;
+ }
+ 
+ hr {
+     border-top: 1px dotted black;
+ }
+ 
+ #sav {
+     padding: 18px 140px 10px 10px;
+     margin: 10px 10px 10px 0;
+     border: 2px solid darkred;
+     font-size: 20px;
+ }
+ 
+ #tel {
+     padding: 18px 40px 10px 10px;
+     margin: 10px 5px 10px 0;
+     font-size: 20px;
+ }
+ 
+ #telsav {
+     padding: 18px 35px 10px 10px;
+     margin: 10px 10px 10px 0;
+     border: 2px solid darkred;
+     font-size: 20px;
+ }
+ 
+ #ir {
+     padding: 18px 35px 10px 10px;
+     margin: 10px 10px 10px 0;
+     font-size: 20px;
+ }
+ 
+ #varos {
+     padding: 18px 394px 10px 10px;
+     margin: 10px 10px 10px 0;
+     font-size: 20px;
+ }
+ 
+ #orszag {
+     padding: 18px 130px 10px 10px;
+     margin: 10px 10px 10px 0;
+     font-size: 20px;
+ }
+ 
+ #cim {
+     padding: 18px 260px 10px 10px;
+     margin: 10px 10px 10px 0;
+     font-size: 20px;
+ }
+ 
+ #save {
+     text-align: center;
+     background-color: green;
+     color: white;
+     border: none;
+     font-size: 25px;
+     font-weight: bold;
+     padding: 0;
+     line-height: 50px;
+     width: 823px;
+ }

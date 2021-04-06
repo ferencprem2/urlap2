@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,34 @@
     <title>Űrlap</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-        <form>
-            <fieldset>
-                <legend>Szállítási cím módosítása</legend>
-            <hr>    
+    <form>
+        <fieldset>
+            <legend>Szállítási cím módosítása</legend>
+            <hr>
             <table>
                 <tr id="elso">
                     <td><label for="nev" class="elso">Név<sup>*</sup></label><br>
-                        <input type="text" id="sav" ></td>
+                        <input type="text" id="sav"></td>
                     <td><label for="tel" class="elso">Telefonszám <sup>*</sup></label><br>
-                    <select id="tel" name="tel">
+                        <select id="tel" name="tel">
                             <option>+36</option>
                             </select>
-                    <input type="tel" id="telsav">
-                    </td>    
+                        <input type="tel" id="telsav">
+                    </td>
                 </tr>
             </table>
             <table>
-            <tr>
+                <tr>
                     <td><label for="szam">Irányítószám<sup>*</sup></label><br>
-                    <input type="number" id="ir"></td>
+                        <input type="number" id="ir" min="0"></td>
                     <td><label for="varos">Város<sup>*</sup></label><br>
-                    <select class="varos">
+                        <select id="varos">
                             <option>Debrecen</option>
                             <option>Budapest</option>
-                            <option>Kocsord</option>
+                            <option>Ebes</option>
                     </select></td>
                 </tr>
             </table>
@@ -45,80 +47,19 @@
                                 <option>Németország</option>
                                 <option>Oroszország</option>
                         </select></td>
-                        <td><label for="email">Cím<sup>*</sup></label><br>
-                            <input type="email" id="cim"></td>
+                    <td><label for="email">Cím<sup>*</sup></label><br>
+                        <input type="email" id="cim"></td>
                 </tr>
             </table>
-            <table> 
+            <table>
                 <tr>
                     <td class="oszlopegy"><input type="submit" id="save" value="Mentés" class="save"></td>
                 </tr>
 
             </table>
-            
-            </fieldset>
-        </form>
-</body>
-</html>
 
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    
-    <form>
-        <legend>Szállítási cím módosítása</legend>
-        <table>
-            <tr>
-                <td><label>Név <sup>*</sup> </label></td>
-                <td><input type="text"></td>
-                <td><label>Telefonszám <sup>*</sup></label></td>
-                <td><select>
-                    <option>36</option>
-                    </select>
-                    <input type="text">
-                </td>  
-            </tr>
-            <tr>
-                <td><label>Irányítószám <sup>*</sup></label></td>
-                <td><input type="number"></td>
-                <td><label>Város <sup>*</sup></label></td>
-                <td><select id="város">
-                        <option>Debrecen</option>
-                        <option>Kocsord</option>
-                </select></td>
-            </tr>
-            
-            <tr>
-                <td><label>Ország <sup>*</sup></label></td>
-                <td> <select>
-                        <option>Magyarország</option>
-                        <option>Németország</option>
-                    </select></td>
-            </tr>
-            <tr>
-                <td>Cím <sup>*</sup></td>
-                <td> <input type="text"></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Mentés"></td>
-            </tr>
-        </table>
-
-
+        </fieldset>
     </form>
-
 </body>
 
-</html> -->
+</html>
